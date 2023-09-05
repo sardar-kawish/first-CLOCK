@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Alarm and Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <div id="display">00:00:00</div>
+            <button id="startStop" onclick="startStop()">Start</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <div class="alarm">
+            <input type="time" id="alarmTime" step="1">
+            <button id="setAlarm" onclick="setAlarm()">Set Alarm</button>
+        </div>
+        <div class="clock">
+            <div id="clockDisplay">00:00:00 AM</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
